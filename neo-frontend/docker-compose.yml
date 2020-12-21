@@ -1,0 +1,13 @@
+version: '3.8'
+services:
+  node:
+    container_name: neoway-frontend
+    stdin_open: true
+    build:
+      context: ./
+    ports:
+      - '3000:3000'
+    working_dir: /usr/src/app
+    volumes:
+      - .:/usr/src/app
+      - /usr/src/app/node_modules

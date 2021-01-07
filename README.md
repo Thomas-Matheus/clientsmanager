@@ -8,8 +8,9 @@ First let's clone this project [https://github.com/Thomas-Matheus/clientsmanager
 
 - PHP 7.4 
 - Symfony 5.2
-- NODE 14.15
+- Node 14.15
 - React 17
+- MongoDB
 - Git
 - Composer
 - Docker
